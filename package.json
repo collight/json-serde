@@ -1,18 +1,13 @@
 {
-  "name": "@collight/lib-template",
+  "name": "@collight/json-serde",
   "version": "0.0.1",
-  "description": "lib-template",
+  "description": "json-serde",
   "type": "module",
   "exports": {
     ".": {
       "types": "./dist/types/index.d.ts",
       "import": "./dist/esm/index.js",
       "require": "./dist/cjs/index.cjs"
-    },
-    "./jotai": {
-      "types": "./dist/types/jotai/index.d.ts",
-      "import": "./dist/esm/jotai/index.js",
-      "require": "./dist/cjs/jotai/index.cjs"
     }
   },
   "files": [
@@ -46,16 +41,20 @@
     "vitest": "^3.2.4"
   },
   "keywords": [
-    "lib-template"
+    "typescript",
+    "json",
+    "serde",
+    "serialize",
+    "deserialize"
   ],
   "author": "Collight <collight@hotmail.com> (https://collight.com)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/collight/lib-template.git"
+    "url": "https://github.com/collight/json-serde.git"
   },
   "bugs": {
-    "url": "https://github.com/collight/lib-template/issues"
+    "url": "https://github.com/collight/json-serde/issues"
   },
-  "homepage": "https://github.com/collight/lib-template"
+  "homepage": "https://github.com/collight/json-serde"
 }
